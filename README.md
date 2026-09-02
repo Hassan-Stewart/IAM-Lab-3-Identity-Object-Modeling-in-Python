@@ -32,13 +32,9 @@ lab2_identity_objects.py – Contains identity objects
 lab3_json_payload.py – Converts identity objects into JSON
 
 # Screenshots
-You will add:
+Identity objects printed in the terminal
 
-Terminal output of identity objects
-
-JSON payload output
-
-VS Code file structure
+JSON payload printed with indentation
 
 # Lessons Learned
 How identity data is represented before provisioning
