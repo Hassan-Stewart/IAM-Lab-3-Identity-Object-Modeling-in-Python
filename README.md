@@ -1,2 +1,50 @@
 # IAM-Lab-3-Identity-Object-Modeling-in-Python
-Python identity object modeling for IAM automation. Includes user dictionaries, JSON payloads, and modular code structure.
+Overview
+This lab introduces identity modeling using Python as part of my IAM/PAM automation learning path. Instead of provisioning users directly in Active Directory, I created identity objects that represent user attributes such as username, department, role, and MFA status. These objects mirror how identity data is structured before being sent to IAM systems like Entra ID, Okta, AWS IAM, and CyberArk.
+
+This lab focuses on building clean, modular Python code that models identity data and prepares it for JSON serialization — a foundational step toward API‑based IAM automation.
+
+# Skills Demonstrated
+Python scripting
+
+Identity object modeling
+
+JSON serialization
+
+IAM data structure design
+
+Modular code organization
+
+# Lab Steps
+Created Python dictionaries representing user identities
+
+Structured identity attributes (username, department, role, MFA status)
+
+Stored multiple identity objects inside a list
+
+Printed identity records in a readable format
+
+Converted identity objects into JSON using json.dumps()
+
+# Files Included
+lab2_identity_objects.py – Contains identity objects
+
+lab3_json_payload.py – Converts identity objects into JSON
+
+# Screenshots
+You will add:
+
+Terminal output of identity objects
+
+JSON payload output
+
+VS Code file structure
+
+# Lessons Learned
+How identity data is represented before provisioning
+
+How JSON payloads are prepared for IAM APIs
+
+How modular Python files improve automation structure
+
+How identity attributes map to real IAM systems
